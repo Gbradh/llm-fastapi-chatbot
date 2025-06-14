@@ -32,4 +32,16 @@ The chatbot can understand natural language queries and respond with data pulled
 ---
 
 ## ⚙️ Project Structure
+llm_chatbot/
+├── backend/
+│ ├── main.py # FastAPI app
+│ ├── models.py # SQLAlchemy models
+│ ├── database.py # DB connection setup
+│ ├── groq_client.py # (optional) Groq LLM integration
+│ ├── seed_data.py # Seeds initial customer data
+│ └── .env # Environment variables (not pushed to GitHub)
+├── frontend/ # React app (optional)
+├── README.md
+├── .gitignore
+
 
